@@ -6,7 +6,7 @@ export default function HomePage() {
   const buttons = [
     { label: 'Json', href: '/pages/json' },
     { label: 'Page Process', href: '/pages/page-process' },
-    { label: 'API', href: '/pages/api' },
+    { label: 'API', href: '/api' },
     // İstediğiniz sayıda buton ekleyin
   ]
 

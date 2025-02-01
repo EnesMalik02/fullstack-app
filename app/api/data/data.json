@@ -1,10 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "İlk Post",
-    "content": "Bu, ilk postun içeriğidir."
-  },
-  {
     "id": 2,
     "title": "İkinci Post",
     "content": "Bu, ikinci postun içeriğidir."
