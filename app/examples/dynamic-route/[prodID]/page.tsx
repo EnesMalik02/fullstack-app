@@ -2,7 +2,7 @@
 
 import { useParams } from "next/navigation";
 import { useProduct } from "../useProduct";
-import ProductCard from "@/app/components/ProductCard";
+import ProductCard from "@/app/examples/dynamic-route/ProductCard";
 
 export default function ProductPage() {
   const params = useParams();
