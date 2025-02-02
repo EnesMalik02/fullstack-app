@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "name": "iPhone 14 Pro",
+      "description": "Apple'ın en yeni iPhone modeli.",
+      "price": 1299
+    },
+    {
+      "id": "2",
+      "name": "MacBook Pro 16",
+      "description": "Güçlü M1 işlemcili Apple MacBook Pro.",
+      "price": 2499
+    },
+    {
+      "id": "3",
+      "name": "Samsung Galaxy S23",
+      "description": "Samsung'un en yeni amiral gemisi telefonu.",
+      "price": 999
+    }
+  ]
+  

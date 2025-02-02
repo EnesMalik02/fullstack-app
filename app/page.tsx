@@ -1,13 +1,14 @@
 // app/page.tsx
 
 import Link from 'next/link'
+import { PATHS } from '@/routes/paths'
 
 export default function HomePage() {
   const buttons = [
-    { label: 'Json', href: '/pages/json' },
-    { label: 'Page Process', href: '/pages/page-process' },
+    { label: 'Json', href: PATHS.json },
+    { label: 'Page Process', href: PATHS.pageProcess },
     { label: 'API', href: '/api' },
-    // İstediğiniz sayıda buton ekleyin
+    { label: 'Dynamic Route', href: PATHS.dynamicRoute },
   ]
 
   return (

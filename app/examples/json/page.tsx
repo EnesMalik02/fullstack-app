@@ -3,7 +3,7 @@
 
 import { useState } from 'react'
 // data.json dosyasını direkt import edebiliriz
-import data from '../../../data/data.json'
+import data from './data/data.json'
 
 export default function HomePage() {
   // Başlangıçta ID=1 kullanıcısı görüntülenecek
