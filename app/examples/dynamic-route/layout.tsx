@@ -2,12 +2,11 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function Layout() {
+export default function Layout({ children }: { children: React.ReactNode }) {
     const [value, setValue] = useState('');
     const router = useRouter();
 
     const handleNavigate = () => {
-        alert(value);
         if (value) {
             router.push(`/examples/dynamic-route/${value}`);
         }
@@ -32,9 +31,9 @@ export default function Layout() {
             </div>
 
             {/* ✅ Sayfa içeriği (altındaki sayfa bileşeni buraya gelir) */}
-            {/* <div className="mt-16 p-4">
+            <div className="mt-16 p-4">
                 {children}
-            </div> */}
+            </div>
         </div>
     );
 }
