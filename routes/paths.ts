@@ -7,5 +7,6 @@ export const PATHS = {
     json: `${ROOTS.examples}/json`,
     pageProcess: `${ROOTS.examples}/page-process`,
     api: '/api',
-    dynamicRoute: `${ROOTS.examples}/dynamic-route/`
+    dynamicRoute: `${ROOTS.examples}/dynamic-route/`,
+    dataFetch:  `${ROOTS.examples}/data-fetch/`
 };

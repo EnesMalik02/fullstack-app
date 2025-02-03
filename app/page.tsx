@@ -9,6 +9,7 @@ export default function HomePage() {
     { label: 'Page Process', href: PATHS.pageProcess },
     { label: 'API', href: '/api' },
     { label: 'Dynamic Route', href: PATHS.dynamicRoute },
+    { label: 'Data Fetch', href : PATHS.dataFetch}
   ]
 
   return (
