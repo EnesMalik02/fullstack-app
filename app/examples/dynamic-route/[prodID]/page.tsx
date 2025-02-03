@@ -1,12 +1,17 @@
 "use client";
 
-import { useParams } from "next/navigation";
 import { useProduct } from "../useProduct";
 import ProductCard from "@/app/examples/dynamic-route/ProductCard";
 
-export default function ProductPage() {
-  const params = useParams();
-  const prodID = params?.prodID ? String(params.prodID) : "";
+type Props = {
+  params: {
+    prodID: string;
+  };
+  searchParams: { [key: string]: string | string[] | undefined };
+};
+
+export default function ProductPage({ params, searchParams }: Props) {
+  const prodID = params?.prodID || "";
 
   const { product, loading, error } = useProduct(prodID);
 
